@@ -1,7 +1,6 @@
 class VibooksCli < Formula
-  desc "OpenAPI-driven CLI for Vibooks local and remote APIs."
-  homepage "https://github.com/blocksoftware/vibooks-cli"
-  version "1.0.0"
+  desc "OpenAPI-driven CLI for Vibooks local and remote APIs"
+  homepage "https://github.com/vibooks-ai/cli.git"
 
   on_macos do
     on_arm do
