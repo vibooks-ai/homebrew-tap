@@ -1,13 +1,13 @@
 cask "vibooks" do
-  version "1.1.1"
+  version "1.1.2"
 
   on_arm do
-    sha256 "866e466f38b0b9caf33d96e41c58229b95c00b885697336fa5ade8439ca38027"
+    sha256 "9dce1281773134b9fcf938f87f7759bc74f349695e7b9d4ea9ce5bdca009782e"
     url "https://downloads.vibooks.ai/desktop/stable/#{version}/darwin-aarch64/dmg/Vibooks_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "421ff75aa307c71a50057a790efa482013d03ef47474153de47d52af92c5b486"
+    sha256 "7de2e804ea48a244e3ab1bc88dc8dbe81533105e4c8104b1b1dc2901f249dccf"
     url "https://downloads.vibooks.ai/desktop/stable/#{version}/darwin-x86_64/dmg/Vibooks_#{version}_x64.dmg"
   end
 
