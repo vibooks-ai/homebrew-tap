@@ -4,25 +4,25 @@ class VibooksCli < Formula
 
   on_macos do
     on_arm do
-      url "https://downloads.vibooks.ai/cli/stable/1.5.1/darwin-aarch64/vibooks-cli.tar.gz"
-      sha256 "d01de73f678df47cd2872669e4e5378c95b166b6b269cc59c4dea49815e9035e"
+      url "https://downloads.vibooks.ai/cli/stable/1.5.2/darwin-aarch64/vibooks-cli.tar.gz"
+      sha256 "a1b4ff4aab1e89f087907e146af9247a0056ddc1177bdfcaa6c68358d7741011"
     end
 
     on_intel do
-      url "https://downloads.vibooks.ai/cli/stable/1.5.1/darwin-x86_64/vibooks-cli.tar.gz"
-      sha256 "26af1fbacaacad19bbfbe3daea2ac16178e1ba0b21a52ee7c05942ffc2952abc"
+      url "https://downloads.vibooks.ai/cli/stable/1.5.2/darwin-x86_64/vibooks-cli.tar.gz"
+      sha256 "c030cd6f21da24ee0df0f382e0dbdb324439096bf2e8a73d8ce8cd326d9c59f9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.vibooks.ai/cli/stable/1.5.1/linux-aarch64/vibooks-cli.tar.gz"
-      sha256 "ace9bd04dd7b942484338a47e362344536732658716edbd4031bfb1744bb7cba"
+      url "https://downloads.vibooks.ai/cli/stable/1.5.2/linux-aarch64/vibooks-cli.tar.gz"
+      sha256 "a61dd4afb363f934143c81adc3c1c5a3040b06bb2d8637f600f2ce2967a52ce9"
     end
 
     on_intel do
-      url "https://downloads.vibooks.ai/cli/stable/1.5.1/linux-x86_64/vibooks-cli.tar.gz"
-      sha256 "573fa459b0262b2c1539e6b3828cafd708cc523b13c4a5000445254845a81147"
+      url "https://downloads.vibooks.ai/cli/stable/1.5.2/linux-x86_64/vibooks-cli.tar.gz"
+      sha256 "445196525677c32bc400fbc9ac26f97226953602d849ff1e58e6978c9544ae97"
     end
   end
 
